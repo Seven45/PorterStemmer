@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Дубровин Семён</Authors>
+    <Company />
+    <Description>Стеммер Мартина Портера на русском и английском языке. Англоязычная версия работает на основе Nuget-пакета "Porter2StemmerStandard".</Description>
+    <PackageTags>Porter, Stemmer, Stemming</PackageTags>
+    <RepositoryUrl>https://github.com/Scrloll/PorterStemmer</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>true</Optimize>
+    <DocumentationFile>C:\Users\hp4520\source\repos\PorterStemmerForRussian\PorterStemmerForRussian\PorterStemmer.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Porter2StemmerStandard" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

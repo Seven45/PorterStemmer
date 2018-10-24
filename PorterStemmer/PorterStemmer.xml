@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PorterStemmer</name>
+    </assembly>
+    <members>
+        <member name="M:PorterStemmer.Language.LanguageIdentifier.IsEnglishLanguage(System.String)">
+            <summary>
+                Возвращает True, если слово состоит из английских букв.
+            </summary>
+            <param name="word">Слово.</param>
+        </member>
+        <member name="M:PorterStemmer.Language.LanguageIdentifier.IsRussianLanguage(System.String)">
+            <summary>
+                Возвращает True, если слово состоит из русских букв.
+            </summary>
+            <param name="word">Слово.</param>
+        </member>
+        <member name="M:PorterStemmer.Language.LanguageIdentifier.GetLanguage(System.String)">
+            <summary>
+                Определяет язык слова.
+            </summary>
+            <param name="word">Слово.</param>
+            <exception cref="T:System.Exception"/>
+        </member>
+        <member name="M:PorterStemmer.Porter.GetStem(System.String)">
+            <summary>
+                Возвращает основу слова.
+            </summary>
+            <param name="word">Слово.</param>
+            <exception cref="T:System.Exception"/>
+        </member>
+        <member name="M:PorterStemmer.Stemmers.EnglishStemmer.GetStem(System.String)">
+            <summary>
+                Возвращает основу английского слова.
+            </summary>
+            <param name="word">Слово.</param>
+        </member>
+        <member name="M:PorterStemmer.Stemmers.RussianStemmer.GetStem(System.String)">
+            <summary>
+                Возвращает основу русского слова.
+            </summary>
+            <param name="word">Слово.</param>
+        </member>
+        <member name="M:PorterStemmer.Stemmers.Stemmer.GetRV(System.String)">
+            <summary>
+                Возвращает "RV-часть" слова (область слова после первой гласной; может быть пустой, если гласные в слове отсутствуют).
+            </summary>
+            <param name="word">Слово.</param>
+            <param name="vovels">Массив гласных букв алфавита.</param>
+        </member>
+        <member name="M:PorterStemmer.Stemmers.Stemmer.GetR1(System.String)">
+            <summary>
+                Возвращает "R1-часть" слова (область слова после первого сочетания "гласная-согласная").
+            </summary>
+            <param name="word">Слово.</param>
+            <param name="vovels">Массив гласных букв алфавита.</param>
+        </member>
+        <member name="M:PorterStemmer.Stemmers.Stemmer.GetR2(System.String)">
+            <summary>
+                Возвращает "R2-часть" слова (область R1 после первого сочетания "гласная-согласная").
+            </summary>
+            <param name="word">Слово.</param>
+            <param name="vovels">Массив гласных букв алфавита.</param>
+        </member>
+        <member name="M:PorterStemmer.Stemmers.Stemmer.IsVowel(System.Char)">
+            <summary>
+                Возвращает True, если буква является гласной.
+            </summary>
+            <param name="c">Буква.</param>
+        </member>
+        <member name="M:PorterStemmer.Stemmers.Stemmer.IsNonVowel(System.Char)">
+            <summary>
+                Возвращает True, если буква является согласной.
+            </summary>
+            <param name="c">Буква.</param>
+        </member>
+    </members>
+</doc>
