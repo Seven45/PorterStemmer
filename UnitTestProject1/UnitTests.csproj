@@ -56,13 +56,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PorterStemmerForRussian\PorterStemmer.csproj">
-      <Project>{8859ae3c-2deb-4300-8c03-ec863f5de0da}</Project>
-      <Name>PorterStemmer</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\PorterStemmer\PorterStemmer.csproj">
+      <Project>{b334ec3a-66e3-4f0e-ad61-2056b0b9ab54}</Project>
+      <Name>PorterStemmer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

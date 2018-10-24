@@ -229,7 +229,7 @@ namespace UnitTest
             };
 
             foreach (var word in words)
-                Assert.AreEqual(word.Value, word.Key.GetStem());
+                Assert.AreEqual(word.Value, word.Key.GetStem()); 
         }
     }
 }

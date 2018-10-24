@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PorterStemmer", "PorterStemmerForRussian\PorterStemmer.csproj", "{8859AE3C-2DEB-4300-8C03-EC863F5DE0DA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTestProject1\UnitTests.csproj", "{C7CFF564-AA11-4B6B-B9E4-EFD861804D0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PorterStemmer", "PorterStemmer\PorterStemmer.csproj", "{B334EC3A-66E3-4F0E-AD61-2056B0B9AB54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8859AE3C-2DEB-4300-8C03-EC863F5DE0DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8859AE3C-2DEB-4300-8C03-EC863F5DE0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8859AE3C-2DEB-4300-8C03-EC863F5DE0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8859AE3C-2DEB-4300-8C03-EC863F5DE0DA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C7CFF564-AA11-4B6B-B9E4-EFD861804D0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C7CFF564-AA11-4B6B-B9E4-EFD861804D0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7CFF564-AA11-4B6B-B9E4-EFD861804D0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7CFF564-AA11-4B6B-B9E4-EFD861804D0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B334EC3A-66E3-4F0E-AD61-2056B0B9AB54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B334EC3A-66E3-4F0E-AD61-2056B0B9AB54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B334EC3A-66E3-4F0E-AD61-2056B0B9AB54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B334EC3A-66E3-4F0E-AD61-2056B0B9AB54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
